@@ -83,8 +83,8 @@ O GitHub Actions é amplamente utilizado por organizações de renome e projetos
 
 ### 1. Clonar o Repositório
 ```bash
-git clone <https://github.com/pedroAmalfi/FatecItapira.git>
-cd <FATECITAPIRA>
+git clone <https://github.com/pedroAmalfi/AulaCICD.git>
+cd <AulaCICD>
 ```
 
 ### 2. Configurar o Ambiente
@@ -213,7 +213,7 @@ Para testar se o CI do GitHub Actions está funcionando corretamente, siga os pa
 2. **Verifique o erro no GitHub Actions:**
    - Você receberá um e-mail notificando que o workflow falhou.
    - Vá até a aba **Actions** no GitHub e veja que o workflow está marcado em vermelho, indicando um erro. Consulte os logs para verificar a falha.
-   - ![Erro no Workflow](https://github.com/pedroAmalfi/FatecItapira/blob/main/assets/erro.PNG?raw=true)
+   - ![Erro no Workflow](https://github.com/pedroAmalfi/AulaCICD/blob/main/assets/erro.PNG?raw=true)
 
 3. **Corrija o erro:**
    - Restaure a função `soma` para seu estado correto:
@@ -231,7 +231,7 @@ Para testar se o CI do GitHub Actions está funcionando corretamente, siga os pa
 4. **Verifique o sucesso no GitHub Actions:**
    - Após corrigir o erro, o workflow será executado novamente.
    - Agora, ele será marcado em verde, indicando que todos os testes foram aprovados.
-   - ![Sucesso  no Workflow](https://github.com/pedroAmalfi/FatecItapira/blob/main/assets/sucesso.PNG?raw=true)
+   - ![Sucesso  no Workflow](https://github.com/pedroAmalfi/AulaCICD/blob/main/assets/sucesso.PNG?raw=true)
 
 Esses passos demonstram como o GitHub Actions reage a erros e confirma quando os problemas são resolvidos, garantindo a confiabilidade do código no processo de integração contínua.
 
@@ -321,7 +321,7 @@ Nesta etapa, vamos simular um processo de **Continuous Delivery (CD)** utilizand
 7. **Encontrando os Artefatos:**
  - Vá na Aba Action em seguida clique sobre o ultimo Action executado
  - Após isso, desça até o final da página e encontrará a seção Artifacts conforme imagem abaixo:
- - ![Artefato no Workflow](https://github.com/pedroAmalfi/FatecItapira/blob/main/assets/artefato.PNG?raw=true)
+ - ![Artefato no Workflow](https://github.com/pedroAmalfi/AulaCICD/blob/main/assets/artefato.PNG?raw=true)
  - Com isso poderá fazer do download da ultima versão do repositório atualizada.
 ---
 
